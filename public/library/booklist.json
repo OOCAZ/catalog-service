@@ -1,0 +1,85 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "category": "science",
+        "path": "public/library/science/Intro_Physics",
+        "short_name": "Intro_Physics",
+        "full_name": "Introduction to Physics",
+        "description": "A beginner-friendly guide to the fundamental principles of physics."
+      },
+      {
+        "id": 2,
+        "category": "literature",
+        "path": "public/library/literature/Sonnets",
+        "short_name": "Sonnets",
+        "full_name": "Shakespeare's Sonnets",
+        "description": "A collection of 154 sonnets written by William Shakespeare."
+      },
+      {
+        "id": 3,
+        "category": "history",
+        "path": "public/library/history/World_History",
+        "short_name": "World_History",
+        "full_name": "World History: From Ancient Civilizations to Modern Times",
+        "description": "An extensive overview of global history from ancient to contemporary times."
+      },
+      {
+        "id": 4,
+        "category": "mathematics",
+        "path": "public/library/mathematics/Calculus",
+        "short_name": "Calculus",
+        "full_name": "Calculus: Concepts and Applications",
+        "description": "Explore the concepts of calculus with real-world applications."
+      },
+      {
+        "id": 5,
+        "category": "computer_science",
+        "path": "public/library/computer_science/Algorithms",
+        "short_name": "Algorithms",
+        "full_name": "Introduction to Algorithms",
+        "description": "A comprehensive guide to algorithm design and analysis."
+      },
+      {
+        "id": 6,
+        "category": "philosophy",
+        "path": "public/library/philosophy/Existentialism",
+        "short_name": "Existentialism",
+        "full_name": "Existentialism Is a Humanism",
+        "description": "A philosophical essay by Jean-Paul Sartre."
+      },
+      {
+        "id": 7,
+        "category": "art",
+        "path": "public/library/art/Art_History",
+        "short_name": "Art_History",
+        "full_name": "The Story of Art",
+        "description": "A classic art history book by E. H. Gombrich."
+      },
+      {
+        "id": 8,
+        "category": "biology",
+        "path": "public/library/biology/Evolution",
+        "short_name": "Evolution",
+        "full_name": "On the Origin of Species",
+        "description": "Charles Darwin's groundbreaking work on evolution."
+      },
+      {
+        "id": 9,
+        "category": "literature",
+        "path": "public/library/literature/1984",
+        "short_name": "1984",
+        "full_name": "Nineteen Eighty-Four",
+        "description": "George Orwell's dystopian novel."
+      },
+      {
+        "id": 10,
+        "category": "psychology",
+        "path": "public/library/psychology/Psychology_Intro",
+        "short_name": "Psych_Intro",
+        "full_name": "Introduction to Psychology",
+        "description": "An introductory psychology textbook."
+      }
+    ]
+  }
+  

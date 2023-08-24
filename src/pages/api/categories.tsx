@@ -8,7 +8,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         name: "Mathematics",
         description: "Documents related to various branches of mathematics.",
         tags: ["math", "college", "higher education"],
-        href: "/math",
+        href: "/categories/math",
       },
       {
         name: "Physical Sciences",
@@ -20,7 +20,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/physical-sciences",
+        href: "/categories/physical-sciences",
       },
       {
         name: "Life Sciences",
@@ -38,7 +38,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/computer-science",
+        href: "/categories/computer-science",
       },
       {
         name: "Social Sciences",
@@ -50,7 +50,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/social-sciences",
+        href: "/categories/social-sciences",
       },
       {
         name: "Humanities",
@@ -65,13 +65,13 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/humanities",
+        href: "/categories/humanities",
       },
       {
         name: "Engineering",
         description: "Resources about engineering principles and applications.",
         tags: ["engineering", "technology", "college", "higher education"],
-        href: "/engineering",
+        href: "/categories/engineering",
       },
       {
         name: "Health Sciences",
@@ -84,7 +84,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/health-sciences",
+        href: "/categories/health-sciences",
       },
       {
         name: "Aviation Studies",
@@ -96,7 +96,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/aviation-studies",
+        href: "/categories/aviation-studies",
       },
       {
         name: "Business",
@@ -109,14 +109,14 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           "college",
           "higher education",
         ],
-        href: "/business",
+        href: "/categories/business",
       },
       {
         name: "Theology",
         description:
           "Documents exploring theological concepts and religious studies.",
         tags: ["theology", "religious studies", "college", "higher education"],
-        href: "/theology",
+        href: "/categories/theology",
       },
       // Add more categories as needed
     ],
