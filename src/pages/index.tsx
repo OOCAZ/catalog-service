@@ -3,6 +3,9 @@
 import Image from "next/image";
 import {
   Box,
+  Card,
+  CardContent,
+  CardHeader,
   CssBaseline,
   Tab,
   Tabs,
@@ -13,8 +16,8 @@ import {
 import React, { useEffect } from "react";
 import axios from "axios";
 import HamburgerMenu from "@/src/components/menus/hamburger";
-import "../styles/burger.css";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 interface JSONData {
   name: string;
@@ -81,10 +84,9 @@ export default function Home() {
     getData();
     console.log(arrayData);
   }, [arrayData, toggle]);
+
   return (
     <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <HamburgerMenu />
       <div>
         <Typography variant="h2" style={{ margin: 20, textAlign: "center" }}>
           Welcome to the Library
@@ -93,9 +95,23 @@ export default function Home() {
           return (
             <div key={element.name} style={{ textAlign: "center" }}>
               <Link id={element.name} className="menu-item" href={element.href}>
-                {element.name}
+                <Card
+                  variant="outlined"
+                  style={{
+                    marginRight: "10vw",
+                    marginLeft: "10vw",
+                    padding: 20,
+                    marginBottom: "5vh",
+                  }}
+                >
+                  <CardContent>
+                    <Typography variant="h2" sx={{ mb: 2 }}>
+                      {element.name}
+                    </Typography>
+                    <Typography>{element.description}</Typography>
+                  </CardContent>
+                </Card>
               </Link>
-              <br />
             </div>
           );
         })}
